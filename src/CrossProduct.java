@@ -13,5 +13,11 @@ public class CrossProduct extends TernaryOperation {
         return visitor.visit(this);
     }
 
+    @Override
+    public String toString() {
+
+        return "Cross product node";
+    }
+
 
 }
