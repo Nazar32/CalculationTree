@@ -27,4 +27,10 @@ public class Vectors extends Node {
     public double accept(Visitor visitor) {
         return visitor.visit(this);
     }
+
+    @Override
+    public String toString() {
+
+        return "Vectors node";
+    }
 }

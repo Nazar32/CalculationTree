@@ -23,4 +23,10 @@ public class LeafNode extends Node {
        return visitor.visit(this);
 
     }
+
+    @Override
+    public String toString() {
+
+        return "Leaf node";
+    }
 }

@@ -7,4 +7,10 @@ public class Plus extends UnaryOperation {
 
         return visitor.visit(this);
     }
+
+    @Override
+    public String toString() {
+
+        return "Plus node";
+    }
 }
